@@ -25,6 +25,7 @@ dependency_links = [x.strip().replace('git+', '') for x in all_reqs if 'git+' no
 setup(
     name='jupyter-athena-sql',
     version=__version__,
+    url='https://github.com/finklabs/jupyter-athena-sql',
     description='run SQL queries on AWS Athena from jupyter notebooks',
     long_description=long_description,
     license='MIT',
