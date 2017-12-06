@@ -7,17 +7,6 @@
 ![athena.ipynb](https://raw.githubusercontent.com/finklabs/jupyter-athena-sql/develop/docs/images/jupyter-in-action.png)
 
 
-## Running tests
-
-Please make sure to have good test coverage for your plugin so we can always make sure your plugin runs with the upcoming fink version.
-
-Run tests like so:
-
-``` bash
-$ python -m pytest -vv --cov-report term-missing tests/test_*
-```
-
-
 # run the notebook
 I like using jupyterlab but other notebooks should work, too
 
