@@ -41,12 +41,10 @@ class Athena(Magics, Configurable):
         of an established connection.
 
         Examples::
-          %athena s3://my-bucket/folder
-
           %athena SELECT * FROM mydatabase.mytable
 
           %%athena
-          DROP TABLE mytable
+          DROP TABLE mydatabase.mytable
         """
         ipt = ('%s\n%s' % (line, cell)).strip()
         try:
