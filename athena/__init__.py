@@ -9,4 +9,4 @@ def here(p):
     return os.path.abspath(os.path.join(os.path.dirname(__file__), p))
 
 
-__version__ = '0.0.1'
+__version__ = '0.0.2'
