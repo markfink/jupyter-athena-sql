@@ -4,7 +4,7 @@
 
 # We run SQL queries on AWS Athena from jupyter notebooks
 
-![athena.ipynb](https://raw.githubusercontent.com/finklabs/jupyter-athena-sql/docs/images/jupyter-in-action.png)
+![athena.ipynb](https://raw.githubusercontent.com/finklabs/jupyter-athena-sql/develop/docs/images/jupyter-in-action.png)
 
 
 ## Running tests

@@ -25,7 +25,7 @@ dependency_links = [x.strip().replace('git+', '') for x in all_reqs if 'git+' no
 setup(
     name='jupyter-athena-sql',
     version=__version__,
-    description='Command code for fink',
+    description='run SQL queries on AWS Athena from jupyter notebooks',
     long_description=long_description,
     license='MIT',
     classifiers=[
@@ -43,8 +43,4 @@ setup(
     install_requires=install_requires,
     dependency_links=dependency_links,
     author_email='mark@finklabs.de',
-    entry_points={
-        'console_scripts': [
-        ]
-    }
 )
