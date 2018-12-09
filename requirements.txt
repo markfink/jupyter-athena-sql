@@ -1,2 +1,3 @@
 ipython>=1.0
-pyathena
+pyathena==1.2.0
+pandas
